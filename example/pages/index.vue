@@ -1,6 +1,6 @@
 <template>
   <div>
-    Open console to see the helpers
+    Works! Open console to see the helpers
   </div>
 </template>
 

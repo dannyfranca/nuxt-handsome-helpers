@@ -1,6 +1,6 @@
 {
   "name": "@dannyfranca/nuxt-handsome-helpers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Implementation of js-handsome-helpers for Nuxt",
   "license": "MIT",
   "author": {
@@ -24,6 +24,7 @@
     "release": "yarn test && standard-version && git push --follow-tags && npm publish"
   },
   "files": [
+    "README.md",
     "lib"
   ],
   "dependencies": {
