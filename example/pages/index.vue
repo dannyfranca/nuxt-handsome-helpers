@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  created() {
+  mounted() {
     /*eslint-disable*/
     console.group('⛏ Look at this.$helpers:')
     console.log(this.$helpers)
