@@ -25,7 +25,8 @@
 
     // With options
     ['nuxt-handsome-helpers', {
-      scope: 'helpers' // default: 'helpers'. Scope name injected (will generate this.$helpers)
+      scope: 'helpers', // default: 'helpers'. Scope name injected (will generate this.$helpers)
+      proxy: false // default: true. Use proxyed version
     }]
   ]
 }
