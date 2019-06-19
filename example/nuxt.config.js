@@ -10,7 +10,8 @@ module.exports = {
   modules: [
     { handler: require('../') },
     ['../lib/module', {
-      scope: 'helpers'
+      scope: 'helpers',
+      proxy: true
     }]
   ],
   build: {

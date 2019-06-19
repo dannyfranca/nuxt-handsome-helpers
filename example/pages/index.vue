@@ -9,7 +9,7 @@ export default {
   mounted() {
     /*eslint-disable*/
     console.group('⛏ Look at this.$helpers:')
-    console.log(this.$helpers)
+    console.log(this.$helpers.$getHelpers())
     console.groupEnd()
   }
 }
